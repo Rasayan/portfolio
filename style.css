@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 8em;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+::placeholder{
+    color: #000;
+    padding-left: 9px;
+}
+
+.nav {
+    padding: 0.3em 7em;
+    width: 85%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: none;
+    background: #fff;
+    color: #000;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+.headOptions{
+    margin-left: 20px 34px;
+}
+.headList {
+    display: flex;
+    gap: 4.2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.headOptions li a {
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    background: white;
+    transition: background 100ms, color 100ms;
+    word-spacing: 3px;
+    padding: 8px 18px;
+    border-radius: 10px;
+}
+
+.headOptions li a:hover {
+    background: #a2d2ff;
+    color: #1d3557;
+    padding: 8px 18px;
+    border-radius: 10px;
+}
+
+/* .headList li:last-child a:hover {
+    border: 2px purple solid;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 10px;
+} */
+
+h1 {
+    font-family: 'Hurricane', cursive;
+    font-size: 2.1em;
+}
+
+.frontView {
+    padding: 2em 7em;
+    /* width: 85%; */
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.iconLinks {
+    height: 23vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .iconLinks li:first-child a {
+    color: blue;
+}
+
+.iconLinks li:last-child a {
+    color: red;
+} */
+
+.iconLinks li a {
+    font-size: 1.5em;
+}
+
+.description {
+    width: 23em;
+    height: 50vh;
+}
+
+.domainHeading {
+    font-size: 3em;
+    font-family: 'Kanit', sans-serif;
+    margin: 0.5em 0;
+}
+
+.domainSubHeading {
+    font-size: 2em;
+    color: rgb(129, 129, 129);
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.domainDescription {
+    font-size: 1.2em;
+    margin-bottom: 28px;
+    color: rgb(129, 129, 129);
+    font-family: 'Poppins', sans-serif
+}
+
+.domainButton a {
+    color: #1d3557;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif
+}
+
+.domainButton {
+    padding: 15px 28px;
+    border-radius: 10px;
+    background: #a2d2ff;
+    border: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.Contact {
+    color: #1d3557;
+    margin-left: 7px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.domainPicture {
+    width: 300px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.aboutSection {
+    margin: 2em 7em;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #a2d2ff;
+    border-radius: 10px;
+}
+
+.aboutPicture {
+    width: 23em;
+    height: 27em;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px #1d3557 solid;
+}
+
+.aboutDescription {
+    width: 40em;
+}
+
+.aboutHeading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.9em;
+    color: #1d3557;
+}
+
+#firstPara {
+    margin: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: #1d3557;
+}
+
+#secondPara {
+    margin: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: #1d3557;
+}
+
+.skillSection {
+    margin: 2em 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#horiLine {
+    width: 80%;
+    color: #000;
+    border: 1px solid black;
+}
+
+#skillHeading {
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 2px;
+}
+
+.skill1Head {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-color: #a2d2ff;
+    color: #1d3557;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding-left: 1em;
+}
+
+.frontSkills {
+    width: 70em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.react {
+    width: 8em;
+    height: 8em;
+}
+
+.css {
+    width: 7.6em;
+    height: 8em;
+}
+
+.js {
+    width: 14em;
+    height: 8em;
+}
+
+.bootstrap {
+    width: 8em;
+    height: 6.7em;
+    margin-bottom: 1em;
+}
+
+.skillList {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.skill2Head {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-color: #a2d2ff;
+    color: #1d3557;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding-left: 1em;
+}
+
+.backSkills {
+    width: 70em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.node {
+    width: 7em;
+    height: 8em;
+}
+
+.java {
+    width: 15em;
+    height: 8.5em;
+}
+
+.npm {
+    width: 9em;
+    height: 8em;
+}
+
+.contactMe {
+    margin: 2em 9.5em;
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    background: #a2d2ff;
+    border-radius: 10px;
+}
+
+.phoneNo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactHead {
+    margin-bottom: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contactMe p {
+    font-family: 'Poppins', sans-serif
+}
+
+.contactMe {
+    color: #1d3557;
+}
+
+.contactIcon ion-icon {
+    font-size: 1.2em;
+}
+
+#contactTimings {
+    margin-bottom: 0;
+}
+
+.eMail {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mailDescription {
+    text-align: center;
+    line-height: 2em;
+}
+
+.contactButton {
+    padding: 13px 30px;
+    border-radius: 10px;
+    background: #f1faee;
+    border: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.contactButton a {
+    color: #1d3557;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif
+}
